@@ -14,6 +14,8 @@ npm run i18n:merge    # after filling those files in: copy them into src/i18n/<l
 
 Official site: **https://lesvaqueres.github.io/elxop/** (repository `lesvaqueres/elxop`), updated only when publishing.
 Preview: https://babilunga.github.io/elxop-lesvaqueres/ (working repository `babilunga/elxop-lesvaqueres`).
+The preview is hidden from search engines: every build whose `SITE_URL` is not `OFFICIAL_URL` (`src/templates/layout.js`)
+gets `noindex`. If the official address changes, update `OFFICIAL_URL` too.
 
 - Every push to `main` that touches `web_page/` runs `.github/workflows/pages.yml` (repo root): it runs
   `npm run build` on GitHub, removes the local-only design-tool script (`impeccable-live`), and publishes `public/`.
