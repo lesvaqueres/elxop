@@ -1,0 +1,15 @@
+{
+  "name": "el-xop-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "El Xop · Les Vaqueres static website",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "images": "node scripts/optimize-images.js",
+    "serve": "node scripts/serve.js 4322",
+    "start": "npm run build && npm run serve",
+    "dev": "node scripts/dev.js 4322",
+    "i18n:missing": "node scripts/localize.js --missing",
+    "i18n:merge": "node scripts/localize.js --merge"
+  }
+}

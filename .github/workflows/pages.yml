@@ -1,0 +1,53 @@
+# Publishes the website (web_page/public) to GitHub Pages on every push to main.
+# The site is rebuilt here from web_page/src with Node, so the live site always matches the sources.
+name: Deploy website
+
+on:
+  push:
+    branches: [main]
+    paths: ['web_page/**', '.github/workflows/pages.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build site
+        working-directory: web_page
+        env:
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: npm run build
+      - name: Remove local-only design tool script
+        working-directory: web_page/public
+        run: |
+          grep -rl 'impeccable-live-start' --include='*.html' . | while read -r f; do
+            perl -0pi -e 's/\n?<!-- impeccable-live-start -->.*?<!-- impeccable-live-end -->//s' "$f"
+          done
+          ! grep -rq 'localhost:' --include='*.html' .
+          find . -name '.DS_Store' -delete
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web_page/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

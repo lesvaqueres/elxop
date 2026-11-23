@@ -1,0 +1,1646 @@
+{
+ "slug": "el-mirador-del-cel",
+ "source": "books/EL MIRADOR DEL CEL",
+ "note": "Positions are % of the page (x of width, y of height); size is % of page width. 'box' = [x0, y0, x1, y1]. Pictures are cut from the flattened page photo by scripts/book-images.py, which writes the final boxes to mirador.pics.json.",
+ "pages": [
+  {
+   "id": "IMG_1110",
+   "items": [
+    {
+     "type": "title",
+     "font": "delius",
+     "box": [
+      3,
+      12,
+      97,
+      22
+     ],
+     "size": 10.4,
+     "align": "center",
+     "text": {
+      "ca": "EL MIRADOR DEL CEL",
+      "es": "EL MIRADOR DEL CIELO",
+      "en": "THE SKY VIEWPOINT"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "cover-terrace",
+     "box": [
+      0.5,
+      33.5,
+      99.5,
+      99.6
+     ],
+     "shape": "rect",
+     "alt": {
+      "ca": "La terrassa del mirador amb el terra de mosaic",
+      "es": "La terraza del mirador con el suelo de mosaico",
+      "en": "The viewpoint terrace and its mosaic floor"
+     }
+    }
+   ],
+   "corners": "72,6,978,4,972,1302,58,1306"
+  },
+  {
+   "id": "IMG_1111",
+   "items": [
+    {
+     "type": "title",
+     "font": "kaushan",
+     "box": [
+      10,
+      11,
+      90,
+      29
+     ],
+     "size": 10.6,
+     "align": "center",
+     "lines": true,
+     "text": {
+      "ca": "CONSTEL·LACIONS\nDE TOT L'ANY",
+      "es": "CONSTELACIONES\nDE TODO EL AÑO",
+      "en": "CONSTELLATIONS\nALL YEAR ROUND"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "constellations",
+     "box": [
+      7,
+      34.5,
+      94.5,
+      86.5
+     ],
+     "shape": "ellipse",
+     "inpaint": [
+      [
+       50,
+       34.5,
+       62,
+       39.8
+      ],
+      [
+       70.5,
+       37.4,
+       89.5,
+       41.8
+      ],
+      [
+       13.5,
+       48.8,
+       23.5,
+       53.2
+      ],
+      [
+       58.5,
+       49.8,
+       81.5,
+       54.2
+      ],
+      [
+       1.5,
+       64.8,
+       24,
+       69.8
+      ],
+      [
+       63.5,
+       62.3,
+       91.5,
+       70.3
+      ]
+     ],
+     "alt": {
+      "ca": "Mosaic amb les constel·lacions del cel del nord",
+      "es": "Mosaico con las constelaciones del cielo del norte",
+      "en": "Mosaic of the northern constellations"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      50.8,
+      35.2
+     ],
+     "size": 5.4,
+     "text": {
+      "ca": "cefeu",
+      "es": "Cefeo",
+      "en": "Cepheus"
+     },
+     "onPic": true
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      71,
+      37.9
+     ],
+     "size": 5.4,
+     "text": {
+      "ca": "cassiopea",
+      "es": "Casiopea",
+      "en": "Cassiopeia"
+     },
+     "onPic": true
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      14,
+      49.3
+     ],
+     "size": 5.4,
+     "text": {
+      "ca": "drac",
+      "es": "Dragón",
+      "en": "Draco"
+     },
+     "onPic": true
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      59,
+      50.3
+     ],
+     "size": 5.4,
+     "text": {
+      "ca": "ossa menor",
+      "es": "Osa Menor",
+      "en": "Little Bear"
+     },
+     "onPic": true
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      2,
+      65.3
+     ],
+     "size": 5.4,
+     "text": {
+      "ca": "ossa major",
+      "es": "Osa Mayor",
+      "en": "Great Bear"
+     },
+     "onPic": true
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      64,
+      63.2
+     ],
+     "size": 6.2,
+     "text": {
+      "ca": "Polar (nord)",
+      "es": "Polar (norte)",
+      "en": "Pole Star (north)"
+     },
+     "onPic": true
+    }
+   ]
+  },
+  {
+   "id": "IMG_1112",
+   "items": [
+    {
+     "type": "title",
+     "font": "kaushan",
+     "box": [
+      17,
+      8,
+      70,
+      14
+     ],
+     "size": 8.4,
+     "align": "left",
+     "text": {
+      "ca": "PUNT DE MIRA",
+      "es": "PUNTO DE MIRA",
+      "en": "SIGHTING POINT"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "sighting-tube",
+     "box": [
+      53.9,
+      13.7,
+      90.1,
+      32.9
+     ],
+     "shape": "rect",
+     "refine": false,
+     "alt": {
+      "ca": "El sol vist a través del tub del punt de mira",
+      "es": "El sol visto a través del tubo del punto de mira",
+      "en": "The sun seen through the sighting tube"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "sighting-helene",
+     "box": [
+      2.3,
+      33.0,
+      94.3,
+      83.4
+     ],
+     "shape": "rect",
+     "refine": false,
+     "inpaint": [
+      [
+       11.5,
+       43.3,
+       34.5,
+       47.9
+      ],
+      [
+       40.8,
+       43.3,
+       54.8,
+       47.9
+      ],
+      [
+       62.3,
+       43.3,
+       88,
+       47.9
+      ]
+     ],
+     "alt": {
+      "ca": "L'Hélène mira la sortida del sol amb el tub",
+      "es": "Hélène mira la salida del sol con el tubo",
+      "en": "Hélène watches the sunrise through the tube"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      12,
+      43.6
+     ],
+     "size": 3.6,
+     "text": {
+      "ca": "Solstici d'estiu",
+      "es": "Solsticio de verano",
+      "en": "Summer solstice"
+     },
+     "onPic": true
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      41.3,
+      43.6
+     ],
+     "size": 3.6,
+     "text": {
+      "ca": "Equinocci",
+      "es": "Equinoccio",
+      "en": "Equinox"
+     },
+     "onPic": true
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      63,
+      43.6
+     ],
+     "size": 3.6,
+     "text": {
+      "ca": "Solstici d'hivern",
+      "es": "Solsticio de invierno",
+      "en": "Winter solstice"
+     },
+     "onPic": true
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      4,
+      85.6
+     ],
+     "size": 4.2,
+     "text": {
+      "ca": "Hélène mira la sortida del sol",
+      "es": "Hélène mira la salida del sol",
+      "en": "Hélène watches the sun rise"
+     }
+    }
+   ]
+  },
+  {
+   "id": "IMG_1113",
+   "items": [
+    {
+     "type": "title",
+     "font": "kaushan",
+     "box": [
+      2,
+      4.5,
+      94,
+      12.5
+     ],
+     "size": 11.6,
+     "align": "center",
+     "text": {
+      "ca": "L'ARC DE SANT MARTÍ",
+      "es": "EL ARCO IRIS",
+      "en": "THE RAINBOW"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "rainbow-diagram",
+     "box": [
+      1,
+      16,
+      95.6,
+      35
+     ],
+     "shape": "rect",
+     "alt": {
+      "ca": "Dibuix: segons l'altura del sol, l'arc de Sant Martí és més gran o més petit, i des de dalt es veu sencer",
+      "es": "Dibujo: según la altura del sol, el arco iris es mayor o menor, y desde arriba se ve entero",
+      "en": "Drawing: the lower the sun, the bigger the rainbow; seen from above it is a full circle"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "rainbow-sketch",
+     "box": [
+      1,
+      35.5,
+      52.5,
+      58.2
+     ],
+     "shape": "rect",
+     "refine": false,
+     "blend": "multiply",
+     "inpaint": [
+      [
+       3.6,
+       39.6,
+       9.4,
+       42.8
+      ],
+      [
+       34.4,
+       53.4,
+       42.4,
+       56.8
+      ]
+     ],
+     "alt": {
+      "ca": "Dibuix del sol, la pluja i l'arc de Sant Martí",
+      "es": "Dibujo del sol, la lluvia y el arco iris",
+      "en": "Drawing of the sun, the rain and the rainbow"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      4.2,
+      39.8
+     ],
+     "size": 2.6,
+     "text": {
+      "ca": "Sol",
+      "es": "Sol",
+      "en": "Sun"
+     },
+     "onPic": true
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      35,
+      53.6
+     ],
+     "size": 2.6,
+     "text": {
+      "ca": "Terra",
+      "es": "Tierra",
+      "en": "Earth"
+     },
+     "onPic": true
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      3,
+      59.6
+     ],
+     "size": 3.3,
+     "text": {
+      "ca": "Reflexió de la llum del sol sobre gotes d'aigua",
+      "es": "Reflexión de la luz del sol sobre gotas de agua",
+      "en": "Sunlight reflected by drops of water"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "rainbow-glory-plane",
+     "box": [
+      64.5,
+      38,
+      89.6,
+      52.2
+     ],
+     "shape": "rect",
+     "alt": {
+      "ca": "L'ombra d'un avió dins d'un cercle de colors sobre un núvol",
+      "es": "La sombra de un avión dentro de un círculo de colores sobre una nube",
+      "en": "A plane's shadow inside a ring of colour on a cloud"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "rainbow-brocken",
+     "box": [
+      64.5,
+      58.4,
+      89.6,
+      74
+     ],
+     "shape": "rect",
+     "alt": {
+      "ca": "L'ombra d'una persona envoltada d'un cercle de colors a la boira",
+      "es": "La sombra de una persona rodeada de un círculo de colores en la niebla",
+      "en": "A person's shadow ringed with colour in the mist"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "rainbow-mosaic-circle",
+     "box": [
+      2.5,
+      63.5,
+      58.2,
+      93.2
+     ],
+     "shape": "rect",
+     "inpaint": [
+      [
+       9.6,
+       89.2,
+       31,
+       92.6
+      ]
+     ],
+     "alt": {
+      "ca": "Una dona dreta al cercle de colors del mosaic",
+      "es": "Una mujer de pie en el círculo de colores del mosaico",
+      "en": "A woman standing in the mosaic's circle of colours"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      10,
+      89.4
+     ],
+     "size": 2.6,
+     "color": "#1b1b1b",
+     "text": {
+      "ca": "Tu pots marcar l'hora.",
+      "es": "Tú puedes marcar la hora.",
+      "en": "You can tell the time."
+     },
+     "onPic": true
+    },
+    {
+     "type": "pic",
+     "name": "rainbow-storm",
+     "box": [
+      63.8,
+      80.6,
+      89.2,
+      93.9
+     ],
+     "shape": "rect",
+     "refine": false,
+     "alt": {
+      "ca": "Arc de Sant Martí sobre les muntanyes en un dia de tempesta",
+      "es": "Arco iris sobre las montañas en un día de tormenta",
+      "en": "A rainbow over the mountains on a stormy day"
+     }
+    }
+   ]
+  },
+  {
+   "id": "IMG_1114",
+   "items": [
+    {
+     "type": "title",
+     "font": "mali",
+     "box": [
+      6,
+      3.5,
+      94,
+      12.5
+     ],
+     "size": 10.2,
+     "align": "center",
+     "text": {
+      "ca": "CORTINA D'AIGUA",
+      "es": "CORTINA DE AGUA",
+      "en": "WATER CURTAIN"
+     }
+    },
+    {
+     "type": "text",
+     "font": "arimo",
+     "box": [
+      1.5,
+      15.4,
+      96,
+      43
+     ],
+     "size": 2.78,
+     "text": {
+      "ca": "<p><b><i>La cortina d'aigua</i></b> està situada a la zona de les tirolines, al final de la baixada.</p><p>Aquesta cortina d'aigua complementa i et demostra que l'Arc de Sant Martí no és un arc sinó un cercle. Tu mateix ho pots comprovar.</p><p>Sempre s'ha de triar un dia assolellat.</p><p>Si et poses davant de la cortina d'aigua al matí, tindràs davant teu un Arc de Sant Martí.</p><p>Si durant la tarda baixes per les tirolines davant teu hi tindràs un Arc de Sant Martí.</p><p>Però si et poses sota la cortina d'aigua al migdia, quan el sol està damunt teu, tindràs un Arc de Sant Martí que, en forma de cercle, es dibuixarà als teus peus i es mourà i ballarà amb tu i només amb tu. És molt interessant de veure que cada persona té el seu.</p>",
+      "es": "<p><b><i>La cortina de agua</i></b> está en la zona de las tirolinas, al final de la bajada.</p><p>Esta cortina de agua complementa el mirador y te demuestra que el arco iris no es un arco sino un círculo. Tú mismo lo puedes comprobar.</p><p>Siempre hay que escoger un día soleado.</p><p>Si te pones delante de la cortina de agua por la mañana, tendrás un arco iris delante.</p><p>Si por la tarde bajas por las tirolinas, tendrás un arco iris delante.</p><p>Pero si te pones bajo la cortina de agua a mediodía, cuando el sol está encima de ti, tendrás un arco iris que, en forma de círculo, se dibujará a tus pies y se moverá y bailará contigo, y solo contigo. Es muy interesante ver que cada persona tiene el suyo.</p>",
+      "en": "<p><b><i>The water curtain</i></b> is in the zip-line area, at the bottom of the slope.</p><p>It completes the viewpoint and proves that a rainbow is not an arc but a circle. You can check it for yourself.</p><p>Always choose a sunny day.</p><p>Stand in front of the water curtain in the morning and you will have a rainbow in front of you.</p><p>Come down the zip line in the afternoon and there will be a rainbow ahead of you.</p><p>But stand under the curtain at midday, with the sun right above you, and the rainbow becomes a circle drawn at your feet that moves and dances with you, and only with you. It is fascinating to see that every person has their own.</p>"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "water-curtain",
+     "box": [
+      0.5,
+      44.3,
+      97,
+      99.6
+     ],
+     "shape": "rect",
+     "alt": {
+      "ca": "La cortina d'aigua entre els salzes, amb un arc de Sant Martí",
+      "es": "La cortina de agua entre los sauces, con un arco iris",
+      "en": "The water curtain among the willows, with a rainbow"
+     }
+    }
+   ],
+   "corners": "52,8,1004,14,1002,1366,44,1366"
+  },
+  {
+   "id": "IMG_1115",
+   "items": [
+    {
+     "type": "title",
+     "font": "kaushan",
+     "box": [
+      10,
+      5,
+      90,
+      12.5
+     ],
+     "size": 11,
+     "align": "center",
+     "text": {
+      "ca": "LA VIA LÀCTIA",
+      "es": "LA VÍA LÁCTEA",
+      "en": "THE MILKY WAY"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "milky-way",
+     "box": [
+      38,
+      17.5,
+      94,
+      94
+     ],
+     "shape": "rect",
+     "inpaint": [
+      {
+       "box": [
+        37,
+        27.2,
+        50,
+        31.8
+       ],
+       "mode": "light"
+      },
+      {
+       "line": [
+        [
+         38.5,
+         22.3
+        ],
+        [
+         75.8,
+         22.3
+        ]
+       ],
+       "mode": "yellow"
+      },
+      {
+       "line": [
+        [
+         48.8,
+         30.6
+        ],
+        [
+         59.8,
+         31.6
+        ]
+       ],
+       "mode": "yellow"
+      },
+      {
+       "line": [
+        [
+         38.5,
+         40
+        ],
+        [
+         46.8,
+         39.8
+        ]
+       ],
+       "mode": "yellow"
+      },
+      {
+       "line": [
+        [
+         38.5,
+         46.9
+        ],
+        [
+         45.5,
+         43.8
+        ]
+       ],
+       "mode": "yellow"
+      },
+      {
+       "line": [
+        [
+         38.5,
+         52.2
+        ],
+        [
+         46.9,
+         50.8
+        ]
+       ],
+       "mode": "yellow"
+      },
+      {
+       "line": [
+        [
+         40.2,
+         69.3
+        ],
+        [
+         75.8,
+         74.9
+        ]
+       ],
+       "mode": "yellow"
+      },
+      {
+       "line": [
+        [
+         38.5,
+         80.8
+        ],
+        [
+         46.3,
+         80.8
+        ]
+       ],
+       "mode": "yellow"
+      }
+     ],
+     "alt": {
+      "ca": "De la Terra a l'Univers: el sistema solar, la Via Làctia feta de mosaic i milers de galàxies",
+      "es": "De la Tierra al Universo: el sistema solar, la Vía Láctea de mosaico y miles de galaxias",
+      "en": "From the Earth to the Universe: the solar system, the mosaic Milky Way and thousands of galaxies"
+     }
+    },
+    {
+     "type": "line",
+     "pts": [
+      [
+       28.5,
+       22.3
+      ],
+      [
+       75.8,
+       22.3
+      ]
+     ],
+     "color": "#e9b93b",
+     "w": 0.45
+    },
+    {
+     "type": "line",
+     "pts": [
+      [
+       48.8,
+       30.6
+      ],
+      [
+       59.8,
+       31.6
+      ]
+     ],
+     "color": "#e9b93b",
+     "w": 0.45
+    },
+    {
+     "type": "line",
+     "pts": [
+      [
+       34.5,
+       40
+      ],
+      [
+       46.8,
+       39.8
+      ]
+     ],
+     "color": "#e9b93b",
+     "w": 0.45
+    },
+    {
+     "type": "line",
+     "pts": [
+      [
+       34.6,
+       49.1
+      ],
+      [
+       45.5,
+       43.8
+      ]
+     ],
+     "color": "#e9b93b",
+     "w": 0.45,
+     "arrow": true
+    },
+    {
+     "type": "line",
+     "pts": [
+      [
+       30.2,
+       53.1
+      ],
+      [
+       46.9,
+       50.8
+      ]
+     ],
+     "color": "#e9b93b",
+     "w": 0.45,
+     "arrow": true
+    },
+    {
+     "type": "line",
+     "pts": [
+      [
+       40.2,
+       69.3
+      ],
+      [
+       75.8,
+       74.9
+      ]
+     ],
+     "color": "#e9b93b",
+     "w": 0.45
+    },
+    {
+     "type": "line",
+     "pts": [
+      [
+       34.5,
+       80.8
+      ],
+      [
+       46.3,
+       80.8
+      ]
+     ],
+     "color": "#e9b93b",
+     "w": 0.45
+    },
+    {
+     "type": "label",
+     "font": "kaushan-lc",
+     "at": [
+      8.5,
+      20
+     ],
+     "size": 4.6,
+     "text": {
+      "ca": "La Terra",
+      "es": "La Tierra",
+      "en": "The Earth"
+     }
+    },
+    {
+     "type": "label",
+     "font": "kaushan-lc",
+     "at": [
+      2,
+      27.3
+     ],
+     "size": 4.2,
+     "max": 36,
+     "text": {
+      "ca": "El nostre sistema solar",
+      "es": "Nuestro sistema solar",
+      "en": "Our solar system"
+     }
+    },
+    {
+     "type": "label",
+     "font": "kaushan-lc",
+     "at": [
+      6.5,
+      37.6
+     ],
+     "size": 4.4,
+     "text": {
+      "ca": "La Via Làctia",
+      "es": "La Vía Láctea",
+      "en": "The Milky Way"
+     }
+    },
+    {
+     "type": "label",
+     "font": "kaushan-lc",
+     "at": [
+      4,
+      42.2
+     ],
+     "size": 3.6,
+     "text": {
+      "ca": "(la nostra galàxia)",
+      "es": "(nuestra galaxia)",
+      "en": "(our galaxy)"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      3,
+      46.6
+     ],
+     "size": 3,
+     "max": 31,
+     "text": {
+      "ca": "El nostre sistema solar",
+      "es": "Nuestro sistema solar",
+      "en": "Our solar system"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      9,
+      50.3
+     ],
+     "size": 3,
+     "text": {
+      "ca": "El braç d'Orió",
+      "es": "El brazo de Orión",
+      "en": "The Orion Arm"
+     }
+    },
+    {
+     "type": "label",
+     "font": "kaushan-lc",
+     "at": [
+      3,
+      65.6
+     ],
+     "size": 4.4,
+     "text": {
+      "ca": "Milers de galàxies",
+      "es": "Miles de galaxias",
+      "en": "Thousands of galaxies"
+     }
+    },
+    {
+     "type": "label",
+     "font": "kaushan-lc",
+     "at": [
+      13,
+      79.2
+     ],
+     "size": 4.4,
+     "text": {
+      "ca": "L'Univers",
+      "es": "El Universo",
+      "en": "The Universe"
+     }
+    }
+   ]
+  },
+  {
+   "id": "IMG_1116",
+   "items": [
+    {
+     "type": "title",
+     "font": "kaushan",
+     "box": [
+      2,
+      13,
+      98,
+      20.5
+     ],
+     "size": 11,
+     "align": "center",
+     "text": {
+      "ca": "LA ROSA DELS VENTS",
+      "es": "LA ROSA DE LOS VIENTOS",
+      "en": "THE COMPASS ROSE"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "compass-rose",
+     "box": [
+      10.5,
+      31.5,
+      88.5,
+      79.5
+     ],
+     "shape": "ellipse",
+     "inpaint": [
+      [
+       13,
+       30.8,
+       30.5,
+       35.5
+      ],
+      [
+       2.5,
+       40.3,
+       17.5,
+       44.8
+      ],
+      [
+       76,
+       42,
+       92.5,
+       46.4
+      ],
+      [
+       4,
+       63,
+       16.5,
+       67.8
+      ],
+      [
+       81,
+       63,
+       93.5,
+       68.2
+      ],
+      [
+       70,
+       32.8,
+       86.5,
+       37.8
+      ],
+      [
+       38.5,
+       26.4,
+       61.5,
+       30.6
+      ],
+      [
+       47,
+       79.8,
+       63.5,
+       85.2
+      ]
+     ],
+     "alt": {
+      "ca": "Rosa dels vents de mosaic, amb una estrella de vuit puntes",
+      "es": "Rosa de los vientos de mosaico, con una estrella de ocho puntas",
+      "en": "Mosaic compass rose with an eight-pointed star"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      39,
+      26.6
+     ],
+     "size": 4.8,
+     "text": {
+      "ca": "Tramuntana",
+      "es": "Tramontana",
+      "en": "Tramuntana (N)"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      13.5,
+      31
+     ],
+     "size": 4.8,
+     "text": {
+      "ca": "Mestral",
+      "es": "Mistral",
+      "en": "Mestral (NW)"
+     },
+     "onPic": true
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      70.5,
+      33.2
+     ],
+     "size": 4.8,
+     "text": {
+      "ca": "Gregal",
+      "es": "Gregal",
+      "en": "Gregal (NE)"
+     },
+     "onPic": true
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      3,
+      40.6
+     ],
+     "size": 4.8,
+     "text": {
+      "ca": "Ponent",
+      "es": "Poniente",
+      "en": "Ponent (W)"
+     },
+     "onPic": true
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      76.5,
+      42.4
+     ],
+     "size": 4.8,
+     "text": {
+      "ca": "Llevant",
+      "es": "Levante",
+      "en": "Llevant (E)"
+     },
+     "onPic": true
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      4.5,
+      63.3
+     ],
+     "size": 4.8,
+     "text": {
+      "ca": "Garbí",
+      "es": "Lebeche",
+      "en": "Garbí (SW)"
+     },
+     "onPic": true
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      81.5,
+      63.3
+     ],
+     "size": 4.8,
+     "text": {
+      "ca": "Xaloc",
+      "es": "Siroco",
+      "en": "Xaloc (SE)"
+     },
+     "onPic": true
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      47.5,
+      80.3
+     ],
+     "size": 4.8,
+     "text": {
+      "ca": "Migjorn",
+      "es": "Mediodía",
+      "en": "Migjorn (S)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "IMG_1117",
+   "items": [
+    {
+     "type": "title",
+     "font": "kaushan",
+     "box": [
+      6,
+      9.2,
+      94,
+      15
+     ],
+     "size": 8.8,
+     "align": "center",
+     "text": {
+      "ca": "ELS MOVIMENTS DEL VENT",
+      "es": "LOS MOVIMIENTOS DEL VIENTO",
+      "en": "HOW THE WIND MOVES"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "wind-cyclone",
+     "box": [
+      4.7,
+      16.3,
+      35.7,
+      30.9
+     ],
+     "shape": "rect",
+     "refine": false,
+     "alt": {
+      "ca": "Imatge de satèl·lit d'un cicló",
+      "es": "Imagen de satélite de un ciclón",
+      "en": "Satellite image of a cyclone"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      48,
+      18.6
+     ],
+     "size": 4.4,
+     "text": {
+      "ca": "Cap de fibló",
+      "es": "Tromba marina",
+      "en": "Waterspout"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "wind-waterspout",
+     "box": [
+      73.7,
+      18.5,
+      93.5,
+      35.3
+     ],
+     "shape": "rect",
+     "refine": false,
+     "alt": {
+      "ca": "Un cap de fibló sobre el mar",
+      "es": "Una tromba marina sobre el mar",
+      "en": "A waterspout over the sea"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      3.6,
+      32.2
+     ],
+     "size": 4.4,
+     "text": {
+      "ca": "Cicló i anticicló",
+      "es": "Ciclón y anticiclón",
+      "en": "Cyclone and anticyclone"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "wind-spiral",
+     "box": [
+      9,
+      35.6,
+      92.6,
+      60.6
+     ],
+     "shape": "ellipse",
+     "alt": {
+      "ca": "Espiral de pedres al terra de mosaic",
+      "es": "Espiral de piedras en el suelo de mosaico",
+      "en": "A spiral of stones in the mosaic floor"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      4.4,
+      58.4
+     ],
+     "size": 4.4,
+     "text": {
+      "ca": "Huracà",
+      "es": "Huracán",
+      "en": "Hurricane"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "wind-hurricane",
+     "box": [
+      4.6,
+      62.5,
+      42.6,
+      88.3
+     ],
+     "shape": "rect",
+     "refine": false,
+     "alt": {
+      "ca": "Imatge de satèl·lit d'un huracà",
+      "es": "Imagen de satélite de un huracán",
+      "en": "Satellite image of a hurricane"
+     }
+    },
+    {
+     "type": "label",
+     "font": "mali",
+     "at": [
+      44,
+      63.4
+     ],
+     "size": 3.6,
+     "text": {
+      "ca": "Migracions dels moixons",
+      "es": "Migraciones de los pájaros",
+      "en": "Bird migrations"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "wind-birds",
+     "box": [
+      46,
+      67,
+      93.6,
+      88.6
+     ],
+     "shape": "rect",
+     "refine": false,
+     "blend": "multiply",
+     "alt": {
+      "ca": "Dibuix: els ocells pugen en espiral aprofitant l'aire calent",
+      "es": "Dibujo: los pájaros suben en espiral aprovechando el aire caliente",
+      "en": "Drawing: birds rising in spirals on warm air"
+     }
+    }
+   ]
+  },
+  {
+   "id": "IMG_1118",
+   "items": [
+    {
+     "type": "title",
+     "font": "kaushan",
+     "box": [
+      4,
+      4.5,
+      94,
+      12.5
+     ],
+     "size": 11.2,
+     "align": "center",
+     "text": {
+      "ca": "FASES DE LA LLUNA",
+      "es": "FASES DE LA LUNA",
+      "en": "PHASES OF THE MOON"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "moon-phases",
+     "box": [
+      11,
+      15.5,
+      89.6,
+      91.2
+     ],
+     "shape": "free",
+     "inpaint": [
+      {
+       "line": [
+        [
+         28.5,
+         32.5
+        ],
+        [
+         52.4,
+         40.4
+        ]
+       ],
+       "mode": "dark"
+      },
+      {
+       "line": [
+        [
+         33,
+         83.2
+        ],
+        [
+         64.2,
+         83.2
+        ]
+       ],
+       "mode": "dark"
+      }
+     ],
+     "alt": {
+      "ca": "Mosaic en forma de fulla amb les fases de la lluna entre la Terra i el Sol",
+      "es": "Mosaico en forma de hoja con las fases de la luna entre la Tierra y el Sol",
+      "en": "Leaf-shaped mosaic showing the moon's phases between the Earth and the Sun"
+     }
+    },
+    {
+     "type": "line",
+     "pts": [
+      [
+       28.5,
+       32.5
+      ],
+      [
+       52.4,
+       40.4
+      ]
+     ],
+     "color": "#222",
+     "w": 0.22
+    },
+    {
+     "type": "line",
+     "pts": [
+      [
+       33,
+       83.2
+      ],
+      [
+       64.2,
+       83.2
+      ]
+     ],
+     "color": "#222",
+     "w": 0.22
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      11,
+      26.6
+     ],
+     "size": 6.4,
+     "text": {
+      "ca": "Terra",
+      "es": "Tierra",
+      "en": "Earth"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      76.5,
+      54.6
+     ],
+     "size": 6.4,
+     "text": {
+      "ca": "Sol",
+      "es": "Sol",
+      "en": "Sun"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      64.5,
+      79.6
+     ],
+     "size": 6.4,
+     "text": {
+      "ca": "Lluna",
+      "es": "Luna",
+      "en": "Moon"
+     }
+    }
+   ]
+  },
+  {
+   "id": "IMG_1119",
+   "items": [
+    {
+     "type": "pic",
+     "name": "full-moon",
+     "box": [
+      16.4,
+      6,
+      80,
+      40.6
+     ],
+     "shape": "rect",
+     "alt": {
+      "ca": "La lluna plena",
+      "es": "La luna llena",
+      "en": "The full moon"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      16.5,
+      41.8
+     ],
+     "size": 5.2,
+     "lines": true,
+     "text": {
+      "ca": "“Quart creixent, corns a l'orient”\n“Quart minvant, corns endavant”",
+      "es": "“Cuarto creciente, cuernos a oriente”\n“Cuarto menguante, cuernos hacia delante”",
+      "en": "“Waxing quarter, horns to the east”\n“Waning quarter, horns ahead”"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "moon-waxing",
+     "box": [
+      8.2,
+      53.6,
+      24.1,
+      64.1
+     ],
+     "shape": "rect",
+     "refine": false,
+     "alt": {
+      "ca": "Quart creixent",
+      "es": "Cuarto creciente",
+      "en": "First quarter moon"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      30,
+      54.6
+     ],
+     "size": 5.2,
+     "text": {
+      "ca": "Quart creixent",
+      "es": "Cuarto creciente",
+      "en": "First quarter"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      30,
+      60.6
+     ],
+     "size": 2.6,
+     "text": {
+      "ca": "La lluna creix quan la veiem a la tarda",
+      "es": "La luna crece cuando la vemos por la tarde",
+      "en": "The moon is growing when we see it in the afternoon"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      11,
+      66.6
+     ],
+     "size": 5.2,
+     "text": {
+      "ca": "Quart minvant",
+      "es": "Cuarto menguante",
+      "en": "Last quarter"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      11,
+      72.8
+     ],
+     "size": 2.6,
+     "text": {
+      "ca": "La lluna minva quan la veiem al matí",
+      "es": "La luna mengua cuando la vemos por la mañana",
+      "en": "The moon is shrinking when we see it in the morning"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "moon-waning",
+     "box": [
+      57.0,
+      65.4,
+      72.8,
+      75.9
+     ],
+     "shape": "rect",
+     "refine": false,
+     "alt": {
+      "ca": "Quart minvant",
+      "es": "Cuarto menguante",
+      "en": "Last quarter moon"
+     }
+    },
+    {
+     "type": "pic",
+     "name": "moon-rising",
+     "box": [
+      8.4,
+      77.7,
+      24.5,
+      88.5
+     ],
+     "shape": "rect",
+     "refine": false,
+     "alt": {
+      "ca": "La lluna plena sortint",
+      "es": "La luna llena saliendo",
+      "en": "The full moon rising"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      27,
+      78.8
+     ],
+     "size": 5.2,
+     "text": {
+      "ca": "La lluna plena surt per l'est",
+      "es": "La luna llena sale por el este",
+      "en": "The full moon rises in the east"
+     }
+    },
+    {
+     "type": "label",
+     "font": "courgette",
+     "at": [
+      27,
+      85.4
+     ],
+     "size": 2.6,
+     "text": {
+      "ca": "Quan fa el ple surt abans que el sol es pongui",
+      "es": "Cuando es llena sale antes de que se ponga el sol",
+      "en": "When it is full it rises before the sun has set"
+     }
+    }
+   ]
+  }
+ ],
+ "pipeline": "1) swiftc scripts/heic-to-jpg.swift -o heic-to-jpg; ./heic-to-jpg <photo>.HEIC <id>.jpg 5000  2) python scripts/book-rectify.py <id>.jpg flat/<id>.jpg [debug] [corners]  3) python scripts/book-images.py mirador flat/  4) npm run build"
+}
